@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <title>Song of the Year</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--alerts CSS -->
+    <link href="../plugins/bower_components/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+    <!-- Menu CSS -->
+    <link href="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- Wizard CSS -->
+    <link href="../plugins/bower_components/jquery-wizard-master/css/wizard.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <!--nestable CSS -->
+    <link href="../plugins/bower_components/nestable/nestable.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="navbar-header">
+    <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+    <div class="top-left-part"><a class="logo" href="index.html"><b><img src="https://i.imgur.com/YZKIQeN.png" alt="home" class="dark-logo"><img src="https://i.imgur.com/VuVmmUg.png" alt="home" class="light-logo" align="center"></b><span class="hidden-xs"><img src="https://i.imgur.com/8ApbUdj.png" alt="home" class="dark-logo"></span></a></div>
+</div>
+
+    
+<div class="row">
+    <div class="col-md-9">
+        <div class="white-box">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Song of the Year</h2>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-block btn-info">Previous Category</button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-block btn-info">Next Category</button>
+                </div>
+            </div>
+            <p>Maecenas ultricies ex sit amet augue varius condimentum. Nullam rutrum at est at semper. Phasellus condimentum condimentum felis a accumsan. Curabitur at diam mollis, ullamcorper urna vitae, laoreet elit. Cras elit magna, venenatis et semper vestibulum, vehicula posuere tortor. Pellentesque nibh eros, vestibulum vitae metus a, pellentesque vulputate mauris. Mauris tincidunt leo nibh, non ornare nulla suscipit quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae luctus lacus. Quisque ultricies metus ut interdum mattis. Nam vitae libero volutpat, tempor turpis sit amet, blandit risus. Cras id ante convallis, venenatis purus ac, interdum felis.</p>
+            <p>Nullam feugiat ante lobortis tempus cursus. Duis ac suscipit purus. Donec placerat sapien id tincidunt eleifend. Nulla porta iaculis velit vel ornare. Nunc faucibus arcu sed maximus efficitur. Etiam sed sollicitudin nunc. Ut dignissim suscipit iaculis. Cras congue metus nec lacus convallis, eu venenatis urna venenatis. Praesent at massa et mi blandit rhoncus id ut nibh.</p>
+        <div class="input-group"> <span class="input-group-btn">
+                      <button type="button" class="btn waves-effect waves-light btn-info"><i class="fa fa-search"></i></button>
+                      </span>
+                                                <input type="text" id="example-input1-group2" name="example-input1-group2" class="form-control" placeholder="Search">
+                                            </div>
+        <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <th style="width: 45%">Song Title</th>
+                        <th style="width: 40%">Artist</th>
+                        <th style="width: 15%"></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Song One</td>
+                            <td>Artist One</td>
+                            <td><button class="btn btn-block btn-success">Vote</button></td>
+                        </tr>
+                        <tr>
+                            <td>Song Two</td>
+                            <td>Artist Two</td>
+                            <td><button class="btn btn-block btn-danger">Remove</button></td>
+                        </tr>
+                        <tr>
+                            <td>Song Three</td>
+                            <td>Artist Three</td>
+                            <td><button class="btn btn-block btn-success">Vote</button></td>
+                        </tr>
+                        <tr>
+                            <td>Song Four</td>
+                            <td>Artist Four</td>
+                            <td><button class="btn btn-block btn-danger">Remove</button></td>
+                        </tr>
+                        <tr>
+                            <td>Song Five</td>
+                            <td>Artist Five</td>
+                            <td><button class="btn btn-block btn-danger">Remove</button></td>
+                        </tr>
+                        <tr>
+                            <td>Song Six</td>
+                            <td>Artist Six</td>
+                            <td><button class="btn btn-block btn-success">Vote</button></td>
+                        </tr>
+                        <tr>
+                            <td>Song Seven</td>
+                            <td>Artist Seven</td>
+                            <td><button class="btn btn-block btn-success">Vote</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="white-box">
+            <div class="panel panel-default">
+                <div class="panel-heading" align="center">
+                    Song of the Year
+                </div>
+                <div class="alert alert-info" align="center">
+                        Please select your top 5 choices, with 1 being the highest.
+                </div>
+                <div class="panel-body">
+                    <div class="dd myadmin-dd" id="nestable-menu">
+                        <ol class="dd-list">
+                            <li class="dd-item" data-id="13">
+                                <div class="dd-handle">Song Two<br>Artist Two</div>
+                            </li>
+                            <li class="dd-item" data-id="14">
+                                <div class="dd-handle">Song Four<br>Artist Four</div>
+                            </li>
+                            <li class="dd-item" data-id="15">
+                                <div class="dd-handle">Song Five<br>Artist Five</div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          
+     <!-- jQuery -->
+    <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!-- Form Wizard JavaScript -->
+    <script src="../plugins/bower_components/jquery-wizard-master/dist/jquery-wizard.min.js"></script>
+    <!-- FormValidation -->
+    <link rel="stylesheet" href="../plugins/bower_components/jquery-wizard-master/libs/formvalidation/formValidation.min.css">
+    <!-- FormValidation plugin and the class supports validating Bootstrap form -->
+    <script src="../plugins/bower_components/jquery-wizard-master/libs/formvalidation/formValidation.min.js"></script>
+    <script src="../plugins/bower_components/jquery-wizard-master/libs/formvalidation/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- Sweet-Alert  -->
+    <script src="../plugins/bower_components/sweetalert/sweetalert.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        $('#exampleBasic').wizard({
+            onFinish: function() {
+                swal("Message Finish!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+            }
+        });
+        $('#exampleBasic2').wizard({
+            onFinish: function() {
+                swal("Message Finish!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+            }
+        });
+        $('#exampleValidator').wizard({
+            onInit: function() {
+                $('#validation').formValidation({
+                    framework: 'bootstrap',
+                    fields: {
+                        username: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'The username is required'
+                                },
+                                stringLength: {
+                                    min: 6,
+                                    max: 30,
+                                    message: 'The username must be more than 6 and less than 30 characters long'
+                                },
+                                regexp: {
+                                    regexp: /^[a-zA-Z0-9_\.]+$/,
+                                    message: 'The username can only consist of alphabetical, number, dot and underscore'
+                                }
+                            }
+                        },
+                        email: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'The email address is required'
+                                },
+                                emailAddress: {
+                                    message: 'The input is not a valid email address'
+                                }
+                            }
+                        },
+                        password: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'The password is required'
+                                },
+                                different: {
+                                    field: 'username',
+                                    message: 'The password cannot be the same as username'
+                                }
+                            }
+                        }
+                    }
+                });
+            },
+            validator: function() {
+                var fv = $('#validation').data('formValidation');
+
+                var $this = $(this);
+
+                // Validate the container
+                fv.validateContainer($this);
+
+                var isValidStep = fv.isValidContainer($this);
+                if (isValidStep === false || isValidStep === null) {
+                    return false;
+                }
+
+                return true;
+            },
+            onFinish: function() {
+                $('#validation').submit();
+                swal("Message Finish!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+            }
+        });
+
+        $('#accordion').wizard({
+            step: '[data-toggle="collapse"]',
+
+            buttonsAppendTo: '.panel-collapse',
+
+            templates: {
+                buttons: function() {
+                    var options = this.options;
+                    return '<div class="panel-footer"><ul class="pager">' +
+                        '<li class="previous">' +
+                        '<a href="#' + this.id + '" data-wizard="back" role="button">' + options.buttonLabels.back + '</a>' +
+                        '</li>' +
+                        '<li class="next">' +
+                        '<a href="#' + this.id + '" data-wizard="next" role="button">' + options.buttonLabels.next + '</a>' +
+                        '<a href="#' + this.id + '" data-wizard="finish" role="button">' + options.buttonLabels.finish + '</a>' +
+                        '</li>' +
+                        '</ul></div>';
+                }
+            },
+
+            onBeforeShow: function(step) {
+                step.$pane.collapse('show');
+            },
+
+            onBeforeHide: function(step) {
+                step.$pane.collapse('hide');
+            },
+
+            onFinish: function() {
+                swal("Message Finish!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem erat eleifend ex semper, lobortis purus sed.");
+            }
+        });
+    })();
+    </script>
+    <!--Style Switcher -->
+    <script src="../plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+</html>
